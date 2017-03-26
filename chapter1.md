@@ -48,3 +48,12 @@ boolean、number、string、array、tuple(元组)、enum（枚举）、any、nul
         }
         
     * 继承与多态
+        ## 使用extends即可实现继承，派生类构造函数必须调用super()
+        
+    * 修饰符（public、private、protected）
+    
+    * 静态属性(static)
+    
+    * 抽象类（abstract,必须包含抽象方法、切不能直接实例化）
+    
+#模块
