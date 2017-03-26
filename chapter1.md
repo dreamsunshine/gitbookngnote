@@ -43,10 +43,10 @@ boolean、number、string、array、tuple(元组)、enum（枚举）、any、nul
             
                 this.engine=engine
                 
-            }
-            
+            }   
         }
         
+                      
     * 继承与多态
         ## 使用extends即可实现继承，派生类构造函数必须调用super()
         
@@ -57,3 +57,31 @@ boolean、number、string、array、tuple(元组)、enum（枚举）、any、nul
     * 抽象类（abstract,必须包含抽象方法、切不能直接实例化）
     
 #模块
+    * 使用import或export导入导出
+    
+    * 设计原则
+        * 尽可能顶层导出
+        * 明确地列出导入的名字
+        * 使用命名空间模式导出
+        * 使用模块包装进行扩展:导出新对象实现新功能
+
+#接口
+
+* 属性类型接口
+        
+        
+        interface Fullname{
+        
+            firstName:string;
+            
+            lastName:string;
+            
+        }
+        
+
+* 函数类型接口   :   需明确函数的参数列表和返回值类型
+    
+    interface encrypt{
+        
+        (val:string,salt:string):string
+    }
