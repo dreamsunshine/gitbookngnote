@@ -8,4 +8,5 @@
   * [service服务](angular/servicefu-wu.md)
   * [injection依赖注入](angular/injectionyi-lai-zhu-ru.md)
   * [router路由](angular/routerlu-you.md)
+* [seo](seo.md)
 
